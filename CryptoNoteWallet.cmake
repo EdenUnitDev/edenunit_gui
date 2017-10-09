@@ -1,0 +1,4 @@
+
+set(CN_PROJECT_NAME "edenunit")
+set(CN_CURRENCY_DISPLAY_NAME "EdenUnit")
+set(CN_CURRENCY_TICKER "EDU")
