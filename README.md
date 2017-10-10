@@ -6,7 +6,7 @@ If you are on Windows just download the binarys, no compile needed :D
 
 ## Clone the GUI wallet source
 
-> https://github.com/EdenUnitDev/edenunit_gui
+> git clone https://github.com/EdenUnitDev/edenunit_gui
 
 
 ## Download Dependencies
