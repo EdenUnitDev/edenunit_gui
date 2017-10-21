@@ -4,9 +4,13 @@
 This is assuming you are running on Ubuntu, replace the download commands with the corresponding commands to your OS
 If you are on Windows just download the binarys, no compile needed :D
 
-## Clone the GUI wallet source
+## Clone the GUI wallet source/Edenunit Source
 
 > git clone https://github.com/EdenUnitDev/edenunit_gui
+
+> git clone https://github.com/EdenUnitDev/edenunit-master
+
+Put edenunit-master in the edenunit-gui folder and rename edenunit-master to "cryptonote"
 
 
 ## Download Dependencies
