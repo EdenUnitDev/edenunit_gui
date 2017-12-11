@@ -6,11 +6,11 @@ If you are on Windows just download the binarys, no compile needed :D
 
 ## Clone the GUI wallet source/Edenunit Source
 
-> git clone https://github.com/EdenUnitDev/edenunit_gui
+> git clone https://github.com/EdenUnitDev/Edenunit_GUI_Client
 
-> git clone https://github.com/EdenUnitDev/edenunit-master
+> git clone https://github.com/EdenUnitDev/EdenUnit
 
-Put edenunit-master in the edenunit-gui folder and rename edenunit-master to "cryptonote"
+Put Edenunit in the Edenunit_GUI_Client edenunit-gui folder and rename edenunit-master to "cryptonote"
 
 
 ## Download Dependencies
@@ -32,7 +32,7 @@ Make a folder to hold the build by doing the command
 
 While in your build folder, do this command to create the make files
 
-> cmake [the file path of the edenunit_gui folder]
+> cmake [the file path cmakelists.txt in Edenunit GUI folder]
 
 To find the filepath of the edenunit_gui, simply drag the edenunit_gui folder into the terminal, it should show a filepath,
 then copy and paste that filepath infront of cmake
