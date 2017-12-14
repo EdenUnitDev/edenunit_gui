@@ -2,11 +2,11 @@
 
 # BEFORE USING EDENUNIT SIMPLEWALLET/DAEMON OR EUROBIT GUI CLIENT:
 ## If your daemon is stuck on block 0, or if you do not have any peers, load up the daemon and start it like the following:
-> ./edenunitd --add-peer 35.196.218.62:8080
+> ./edenunitd --add-peer put.seed.node.here:8080
 
 Or
 
-> ./edenunitd --add-peer 35.188.44.219:8080
+> ./edenunitd --add-peer put.seed.node.here:8080
 ## Doing this will manually connect you to the seed nodes to allow you to find more peers, if the daemon or GUI client is starting at block 0 exit both and open the daemon with that command, then you may continue to use simplewallet once it is done syncing, or once it is done syncing close the daemon and open up the GUI client and it should start getting blocks as it should normally
 # How to compile EdenUnit GUI wallet
 
@@ -51,6 +51,8 @@ then copy and paste that filepath infront of cmake
 After cmake is done building the make file, simply do the command
 
 > make
+If your on a system with a multi core CPU you can do this command to speed up the compile:
+> make -j (Number of threads)
 
 Note: The compile may take a while
 
