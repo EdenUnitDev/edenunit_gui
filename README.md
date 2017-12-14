@@ -51,7 +51,9 @@ then copy and paste that filepath infront of cmake
 After cmake is done building the make file, simply do the command
 
 > make
+
 If your on a system with a multi core CPU you can do this command to speed up the compile:
+
 > make -j (Number of threads)
 
 Note: The compile may take a while
